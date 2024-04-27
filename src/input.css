@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+      background: linear-gradient(90deg, rgba(255, 23, 228, 1) 0%, rgba(134, 251, 251, 1) 100%);
+      height: 4px;
+  }
+
+.gradient-ends {
+    background: linear-gradient(90deg, rgba(255, 23, 228, 1) 0%, rgba(134, 251, 251, 1) 100%);
+    height: 7px;
+}
+
+
+/* header
+{
+    position: sticky;
+    top: 0px;
+} */
+
+nav h1 [class*="fa-"] {
+    font-size: 150%;
+    font-weight: 800;
+    color: magenta;
+}
+
+.col-span-2 {
+    grid-column: span 2 / span 2;
+}
+
+.name
+{
+    color: rgb(0, 191, 255);
+    font-family: Lucida Handwriting;
+    text-shadow: 0 0 3px #ff7b00, 0 0 5px #bf00ff;
+
+}
+.intro
+{
+    text-shadow: 0 0 3px #f0efee, 0 0 5px #0066ff;
+}
+
+#about
+{
+    background: linear-gradient(rgb(40, 40, 40),rgb(20, 20, 71));
+}
+
+.heading
+{
+    font-family: lucida handwriting;
+    font-weight: 800;
+}
+blockquote:hover
+{
+   /* color:aqua; */
+
+/* text-shadow: 0 0 3px #eef0ee, 0 0 5px #0066ff; */
+
+    background: -webkit-linear-gradient(#851818, #a4bb23);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient
+{
+    background: -webkit-linear-gradient(#c9590a, #088e49);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+#skill
+{
+    background: linear-gradient(rgb(40, 40, 40), rgb(20, 20, 71));
+    
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', 'sans-serif';
+    color: rgb(190, 188, 209);
+    text-shadow: 0 0 3px #f0efee, 0 0 5px #0066ff;
+}
+
+#cert {
+    background: linear-gradient(rgb(40, 40, 40), rgb(20, 20, 71));
+    color: rgb(190, 188, 209);
+    text-shadow: 0 0 3px #f0efee, 0 0 5px #0066ff;
+}
+
+#contact
+{
+    background: linear-gradient(rgb(40, 40, 40), rgb(20, 20, 71));
+    color: rgb(190, 188, 209);
+    text-shadow: 0 0 3px #f0efee, 0 0 5px #0066ff;
+}
+
+#project
+{
+    background: linear-gradient(to right,rgb(20, 20, 71),rgb(40, 40, 40));
+        color: rgb(190, 188, 209);
+        text-shadow: 0 0 3px #f0efee, 0 0 5px #0066ff;
+}
