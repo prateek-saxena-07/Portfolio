@@ -97,3 +97,15 @@ blockquote:hover
         color: rgb(190, 188, 209);
         text-shadow: 0 0 3px #f0efee, 0 0 5px #0066ff;
 }
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Example for body */
+.dark-mode body {
+    background-color: #333;
+    color: #fff;
+}
